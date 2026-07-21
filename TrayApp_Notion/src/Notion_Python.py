@@ -7,8 +7,8 @@ from tqdm import tqdm
 from collections import defaultdict
  
 # ── CONFIG ────────────────────────────────────────────────────────────────────
-NOTION_TOKEN  = "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"  # https://www.notion.so/my-integrations
-DATABASE_ID   = "209a3e1fbdd08018ad35f03eac50467f"               # 32-char ID from the database URL
+NOTION_TOKEN  = ""  # https://www.notion.so/my-integrations
+DATABASE_ID   = ""               # 32-char ID from the database URL
 total = 11            #tqdm total count (for progress bar, if needed)
 # ─────────────────────────────────────────────────────────────────────────────
  
