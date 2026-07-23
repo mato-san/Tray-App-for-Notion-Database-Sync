@@ -12,6 +12,8 @@ The project is split into two processes:
 | `Notion_Python.exe` | Windows console | Does the actual Notion API sync work. Built with `requests`, `pandas`. |
 
 <img width="554" height="554" alt="icon" src="https://github.com/user-attachments/assets/8f9d5d25-84ec-4dc3-9698-8e54ac88085a" /> **Figure 1. Main interface of the tray application**
+<img width="315" height="91" alt="image" src="https://github.com/user-attachments/assets/cbd05515-ce37-4f14-8cd2-746184fb4699" />
+
 
 
 When you click **Sync** in the tray menu, `PyNot_App.exe` spawns `Notion_Python.exe` as a subprocess sitting next to it. It checks whether a previous sync is still running (via `Popen.poll()`) before starting a new one, so repeated clicks won't stack up duplicate processes.
