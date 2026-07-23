@@ -80,27 +80,6 @@ colorama
 pyinstaller
 ```
 
-```
-PyNot/
-├── src/
-│   ├── pynot_app.py          # tray icon + menu source (→ PyNot_App.exe)
-│   ├── notion_sync.py        # sync worker source   (→ Notion_Python.exe)
-│   └── icon.ico              # tray icon asset
-├── build/
-│   ├── PyNot_App.spec        # PyInstaller spec (reproducible builds)
-│   └── Notion_Python.spec
-├── dist/                     # build output — gitignored
-├── config.example.yaml       # or .env.example — placeholder secrets
-├── requirements.txt
-├── .gitignore                # dist/, build/, __pycache__/, .env, *.spec~
-├── LICENSE
-├── CHANGELOG.md
-├── .github/
-│   └── workflows/
-│       └── build.yml         # CI: build both exes on push/tag, attach to Release
-└── README.md
-```
-
 Specifically worth prioritizing:
 
 - **Source `.py` files** — the most important gap. Right now the logic only exists as compiled binaries, which means no diffing, no code review, and no way to fix a bug without starting over.
