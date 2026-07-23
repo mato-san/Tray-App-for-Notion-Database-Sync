@@ -11,7 +11,7 @@ The project is split into two processes:
 | `PyNot_App.exe` | Windows GUI (no console) | System tray icon + menu. Built with `pystray` + `Pillow`. |
 | `Notion_Python.exe` | Windows console | Does the actual Notion API sync work. Built with `requests`, `pandas`. |
 
-<img width="1254" height="1254" alt="icon" src="https://github.com/user-attachments/assets/8f9d5d25-84ec-4dc3-9698-8e54ac88085a" />
+<img width="554" height="554" alt="icon" src="https://github.com/user-attachments/assets/8f9d5d25-84ec-4dc3-9698-8e54ac88085a" />
 *Figure 1. Main interface of the tray application*
 
 
