@@ -2,8 +2,6 @@
 
 A lightweight Windows system tray utility that keeps a local workflow in sync with Notion. Click the tray icon to trigger a sync on demand; the app prevents overlapping runs automatically.
 
-> Note: this README is drafted from the two built executables (`PyNot_App.exe`, `Notion_Python.exe`) and the sync logic shared in development. Swap in exact details (name, config format, license) as your source solidifies.
-
 ## How it works
 
 The project is split into two processes:
@@ -67,10 +65,6 @@ PyYAML
 colorama
 pyinstaller
 ```
-
-## Suggested repository structure
-
-Right now the repo may just be the two `.exe` files. Since executables alone aren't reviewable, forkable, or diffable, here's what's worth adding:
 
 ```
 PyNot/
